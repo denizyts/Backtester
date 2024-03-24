@@ -45,7 +45,7 @@ Strategy = Strat(df , df2 , df3 , df4 , assetList=assets)
 
 Backtester = Backtester(df , Strategy, assets )
 
-Backtester.Backtester()
+Backtester.Backtester(InitialBalance=1000 ,BuyUnit_initial=50 , leverage=10) 
 
 
 
